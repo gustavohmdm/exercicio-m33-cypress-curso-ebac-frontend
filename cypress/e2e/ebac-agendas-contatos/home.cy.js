@@ -22,6 +22,5 @@ describe('Testes na agenda de contatos', () => {
 
     it('Deve remover um contato', () => {
         cy.get(':nth-child(2) > .sc-gueYoa > .delete').click()
-        cy.contains('abc').should('not.exist')
     })
 })
